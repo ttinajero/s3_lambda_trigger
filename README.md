@@ -1,9 +1,9 @@
 # s3_lambda_trigger
+#Codigo
 
 import json
 import boto3
 
-#os.environ['AWS_DEFAULT_REGION'] = 'us-west-2'
 
 s3 = boto3.resource('s3')
 
